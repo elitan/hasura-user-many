@@ -160,6 +160,4 @@ update_permissions:
       filter:
         id:
           _eq: X-Hasura-User-Id
-      check:
-        id:
-          _eq: X-Hasura-User-Id
+      check: {}
